@@ -1,0 +1,130 @@
+body {
+    background-image: url(../image/Background.jpg);
+    background-repeat: repeat;
+    background-size: 60%;
+}
+
+.imgCourse {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin: auto;
+    z-index: 1;
+}
+
+.ListCourse {
+    margin-top: 60px;
+    padding: 5px;
+}
+
+.Course {
+    padding: 0px;
+    background-color: white;
+    margin: 32px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 20px;
+}
+
+#buttonCourse {
+    cursor: pointer;
+}
+
+/*
+button{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.TitleCourse {
+    color: black;
+    margin: 32px 0px 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.DescriptionCourse {
+    color: rgba(53, 162, 159, 1);
+    font-size: 16px;
+}
+
+.course-link {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+.btn-action {
+    font-size: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Notification Section */
+
+.notif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 1.8rem 3rem;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+#Kelas_Button {
+    width: 50px;
+    height: 30px;
+    border-radius: 30%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+}
+
+.btn-valid {
+    display: flex;
+    gap: 20px;
+}
+
+.tombol-silang {
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .btn-action {
+        margin-bottom: 0.5rem;
+    }
+
+    .btn-action:last-child {
+        margin-bottom: 0;
+    }
+}
